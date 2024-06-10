@@ -2,10 +2,16 @@
 module.exports = {
   content: [
     "./src/**/*.{html,ts}",
+    'node_modules/preline/dist/*.js',
   ],
-  theme: {
-    extend: {},
+  darkMode: 'class',
+  theme: {    
+    extend: {      
+    },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('preline/plugin'),
+  ],
 }
 
