@@ -1,0 +1,25 @@
+/*
+.container {  display: grid;
+    grid-template-columns: 0.5fr 2.1fr 0.5fr;
+    grid-template-rows: 0.1fr 1.9fr 1.9fr 0.1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Header Header Header"
+      "Nav Content Tools"
+      "Nav Content Tools"
+      "Footer Footer Footer";
+  }
+  
+  .Nav { grid-area: Nav; }
+  
+  .Tools { grid-area: Tools; }
+  
+  .Header { grid-area: Header; }
+  
+  .Footer { grid-area: Footer; }
+  
+  .Content { grid-area: Content; }
+  
+  .container div { border: 1px solid black;}
+  */

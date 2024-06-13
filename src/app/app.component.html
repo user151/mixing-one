@@ -1,41 +1,7 @@
-<div class="m-1">
-
-  <div class="border-b border-gray-200 dark:border-neutral-700">
-    <nav class="flex space-x-1" aria-label="Tabs" role="tablist">
-      <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-blue-600 hs-tab-active:text-blue-600 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-blue-600 focus:outline-none focus:text-blue-600 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:text-blue-500 active" id="tabs-with-icons-item-1" data-hs-tab="#tabs-with-icons-1" aria-controls="tabs-with-icons-1" role="tab">
-        
-        <lucide-angular name="file" class="my-icon"></lucide-angular> Tab 1
-      </button>
-      <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-blue-600 hs-tab-active:text-blue-600 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-blue-600 focus:outline-none focus:text-blue-600 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:text-blue-500" id="tabs-with-icons-item-2" data-hs-tab="#tabs-with-icons-2" aria-controls="tabs-with-icons-2" role="tab">
-        <lucide-icon name="home" class="my-icon"></lucide-icon>
-        Tab 2
-      </button>
-      <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-blue-600 hs-tab-active:text-blue-600 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-blue-600 focus:outline-none focus:text-blue-600 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-400 dark:hover:text-blue-500" id="tabs-with-icons-item-3" data-hs-tab="#tabs-with-icons-3" aria-controls="tabs-with-icons-3" role="tab">
-        <i-lucide name="menu" class="my-icon"></i-lucide>
-        Tab 3
-      </button>
-    </nav>
-  </div>
-  
-  <div class="mt-3">
-    <div id="tabs-with-icons-1" role="tabpanel" aria-labelledby="tabs-with-icons-item-1">
-      
-      <div class="max-w-sm space-y-3">
-        <input type="text" class="py-3 px-4 block w-full border-gray-200 rounded-lg text-sm focus:border-blue-500 focus:ring-blue-500 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-400 dark:placeholder-neutral-500 dark:focus:ring-neutral-600" placeholder="This is placeholder">
-      </div>
-      
-    </div>
-    <div id="tabs-with-icons-2" class="hidden" role="tabpanel" aria-labelledby="tabs-with-icons-item-2">
-      <p class="text-gray-500 dark:text-neutral-400">
-        This is the <em class="font-semibold text-gray-800 dark:text-neutral-200">second</em> item's tab body.
-      </p>
-    </div>
-    <div id="tabs-with-icons-3" class="hidden" role="tabpanel" aria-labelledby="tabs-with-icons-item-3">
-      <p class="text-gray-500 dark:text-neutral-400">
-        This is the <em class="font-semibold text-gray-800 dark:text-neutral-200">third</em> item's tab body.
-      </p>
-    </div>
-  </div>
-
-</div>  
-<router-outlet />
+<div class="flex">
+  <div class="Nav bg-slate-800 h-screen text-cyan-50">Navigation menu</div>
+  <div class="Tools">Tools</div>
+  <div class="Header">Header</div>
+  <div class="Footer">Footer</div>
+  <div class="Content">Content</div>
+</div>
